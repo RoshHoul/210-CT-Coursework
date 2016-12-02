@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  Week6Task1.cpp
+d:\uni\210\week 6 portfolio\week6task1\week6task1\week6task1.cpp(186): warning C4715: 'BST': not all control paths return a value
+  Week6Task1.vcxproj -> D:\Uni\210\Week 6 Portfolio\Week6Task1\Debug\Week6Task1.exe

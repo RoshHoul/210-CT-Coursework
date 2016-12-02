@@ -1,0 +1,44 @@
+GRAPH DISPLAYED STARTING FROM NODE 3: 
+        3 
+       / \
+      7   0
+     /     \
+    5       NULL
+   /   
+  2   
+ / | \
+4  6  1
+The Node 3 is connected to :
+0, 7, 
+The Node 7 is connected to :
+3, 5, 
+The Node 5 is connected to :
+7, 2, 
+The Node 2 is connected to :
+5, 6, 4, 
+The Node 6 is connected to :
+2, 1, 
+The Node 1 is connected to :
+6, 
+The Node 4 is connected to :
+2, 
+
+BREADTH FIRST TRAVERSAL: 
+Node value is: 3
+Node value is: 0
+Node value is: 7
+Node value is: 5
+Node value is: 2
+Node value is: 6
+Node value is: 4
+Node value is: 1
+
+DEPTH FIRST TRAVERSAL: 
+Node value is: 3
+Node value is: 7
+Node value is: 5
+Node value is: 2
+Node value is: 4
+Node value is: 6
+Node value is: 1
+Node value is: 0

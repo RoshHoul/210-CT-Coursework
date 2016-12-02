@@ -1,0 +1,28 @@
+input N
+input mat1[][]
+input mat2[][]
+
+ADD(mat1[][], mat2[][])
+	for i <- 0 to N
+		for k <- 0 to N
+			result <- mat1[i][k] + mat2[i][k]
+return result
+
+SUB(mat1[][], mat2[][])
+	for i <- 0 to N
+		for k <- 0 to N
+			result <- mat1[i][k] - mat2[i][k]
+return result
+
+MULTMAT(mat1[][], mat2[][])
+	for i <- 0 to N
+		for j <- 0 to N
+			for k <- 0 to N
+				result [i][j] += mat1[i][k] * mat2[k][j]
+return result[i][j]
+
+MULTNUM (mat[][], mult)
+	for i <- 0 to N
+		for j <- to N
+			result <- mat[i][j] * mult
+return result
